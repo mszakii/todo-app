@@ -27,7 +27,7 @@ body {
 }
 
 .app header {
-  background-image: url('/media/banner.jpg');
+  background-image: url('https://mszakii.github.io/todo-app/media/banner.jpg');
   width: 100%;
   height: 30%;
   padding: 20px;
