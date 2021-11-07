@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--LINKS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/master.css">
+  <!--TITLE-->
+  <title>TODO 📔</title>
+</head>
+<body>
+  <section class="app">
+    <header>
+      <div class="clear">
+        <i class="fa fa-sync-alt"></i>
+      </div>
+      <div class="date" id="date"></div>
+    </header>
+    <section class="list">
+      <!--task-->
+      <ul class="tasks" id="tasks">
+        <li class="task">
+          <i class="fas fa-circle"></i>
+          <div class="text">play 🏃</div>
+          <i class="fas fa-trash-alt"></i>
+        </li>
+        <!--task-->
+        <li class="task">
+          <i class="fas fa-check-circle"></i>
+          <div class="text done">read book 📚</div>
+          <i class="fas fa-trash-alt"></i>
+        </li>
+      </ul>
+    </section>
+    <div class="add-task">
+      <i class="fas fa-plus-circle" id="send"></i>
+      <input type="text" id="input" placeholder="add new task">
+    </div>
+  </section>
+  <!--SOUNDS-->
+  <audio src="/media/check.wav" id="check"></audio>
+  <!--JavaScript-->
+  <script src="js/master.js"></script>
+</body>
+</html>
