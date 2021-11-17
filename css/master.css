@@ -12,6 +12,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  transition: .2s;
 }
 
 @media (min-width: 767px) {
@@ -66,6 +67,7 @@ body {
   grid-template-columns: auto 1fr auto;
   border-bottom: 1px solid #1F1F1F;
   margin: 10px 0;
+  font-size: 20px;
 }
 
 .app .list .tasks .task i,
@@ -116,6 +118,8 @@ body {
 .add-task input {
   border: 0;
   border-bottom: 2px solid rgb(66,133,244);
+  background: #FDFDFD;
+  text-transform: uppercase;
 }
 
 .add-task input:focus {
